@@ -1,5 +1,5 @@
 ### Test GET all notes
-GET http://localhost:3003/
+GET http://localhost:3003/all
 Accept: application/json
 
 ### Test POST create note
@@ -7,7 +7,7 @@ POST http://localhost:3003/new
 Content-Type: application/json
 
 {
-  "title": "Note 01",
+  "title": "Note 02",
   "content": "This is note number one."
 }
 
@@ -25,5 +25,5 @@ Content-Type: application/json
 }
 
 ### Test DELETE note
-DELETE http://localhost:3003/delete/1004
+DELETE http://localhost:3003/delete/1007
 Accept: application/json

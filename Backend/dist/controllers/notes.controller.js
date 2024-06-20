@@ -31,8 +31,8 @@ const getAllNotes = (req, res) => __awaiter(void 0, void 0, void 0, function* ()
     try {
         console.log("getting all notes...");
         const allnotes = yield noteService.getAllNotes();
-        res.send("All notes fetched");
-        res.json(allnotes);
+        res.send(JSON.stringify(allnotes));
+        // console.log(JSON.stringify(allnotes))
     }
     catch (error) {
         console.error(error);

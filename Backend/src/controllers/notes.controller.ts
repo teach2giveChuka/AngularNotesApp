@@ -18,8 +18,9 @@ export const getAllNotes = async (req: Request, res: Response) => {
     try {
         console.log("getting all notes...")
         const allnotes = await noteService.getAllNotes();
-        res.send("All notes fetched")
-        res.json(allnotes)
+        res.send(JSON.stringify(allnotes));
+        // console.log(JSON.stringify(allnotes))
+                
 
 
     } catch (error) {
