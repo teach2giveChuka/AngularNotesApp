@@ -1,0 +1,124 @@
+<app-navbar></app-navbar>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #151515;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 100vw;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #1c1c1c;
+    }
+
+    #welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: #ccc;
+        margin-top: 60px;
+    }
+
+    #welcome h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    
+
+    .note-card {
+        border-radius: 10px;
+        padding: 15px;
+        margin: 10px 0;
+        background-color: #222121;
+        color: #ccc;
+        width: 50vw;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+        gap: 10px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .note-card h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.5em;
+    }
+
+    .note-card h4 {
+        margin: 0 0 10px 0;
+        font-size: 1.2em;
+        color: #bbb;
+    }
+
+    .note-card p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ccc;
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+    .delete-button {
+        background-color: #ff4d4d;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;        
+        border-radius: 5px;       
+        bottom: 10px;
+        right: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .delete-button:hover {
+        background-color: #e60000;
+    }
+</style>
+
+<main>
+    <div id="welcome">
+      <h1>Your Notes (Reversed Hello)=>{{'Hello' | reverse}}</h1>
+    </div>
+  
+    <div *ngIf="notes.length > 0; else noNotes">
+      <div *ngFor="let note of notes; let i = index" class="note-card">
+        <h4><p>{{ note.title }}</p></h4>
+        <p>{{ note.content }}</p>
+        <button (click)="deleteNote(i, note.id)" class="delete-button" style="margin-top: 10px;">Delete</button>
+        
+      </div>
+    </div>
+    
+    <ng-template #noNotes>
+      <p style="color: #ccc;">No notes available.</p>
+    </ng-template>
+  </main>
+  

@@ -1,0 +1,66 @@
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #151515;
+            height: 100vh;
+        }
+
+
+        
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #welcome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: #ccc;
+            margin-top: 60px;
+        }
+
+        #notesButton {
+            background-color: #151515;
+            color: #ccc;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1.2em;
+            border-radius: 20px;
+            border: 2px solid;
+        }
+
+        #notesButton:hover {
+            background-color: #ccc;
+            color: #151515;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <app-navbar></app-navbar>
+    <main>
+        <section id="welcome">
+            <p style="font-size: 50px; font-weight: 600; margin-bottom: 20px;">Welcome to Me~Notes</p>
+            <p style="font-size: 20px; margin-bottom: 10px;" >Thank you for choosing Me~Notes. We're excited to have you on board!</p>
+            <p style="margin-bottom: 40px;">Please click the button below to access your notes and start organizing your
+                thoughts.</p>
+            <button id="notesButton" routerLink="/note">Go to Notes</button>
+        </section>
+    </main>
+</body>
