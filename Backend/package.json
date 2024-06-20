@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "hh",
     "build": "tsc --w",
     "dev": "nodemon ./dist/server.js",
     "run": "node ./dist/server.js"
