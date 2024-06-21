@@ -111,6 +111,7 @@
 <body>
   <app-navbar></app-navbar>
   <main>
+    <p style="color: #b5b3b3; font-size: 30px;">Create Your Note</p>
     <form [formGroup]="notesForm" (ngSubmit)="grabForm()" class="input-form">
         <input type="text" formControlName="title" placeholder="Enter note Title" required/>
         <div *ngIf="notesForm.get('title')?.invalid && (notesForm.get('title')?.touched || notesForm.get('title')?.dirty)" style="color: rgb(246, 70, 70); font-size: smaller;">

@@ -9,7 +9,9 @@ import { Note } from '../interfaces/formInterface';
 })
 export class NoteService {
   private allUrl = 'http://localhost:3003/all';
- private rootUrl = 'http://localhost:3003';
+  private rootUrl = 'http://localhost:3003';
+
+ 
 
   constructor(private http: HttpClient) { }
 
@@ -24,6 +26,11 @@ export class NoteService {
   }
   createNote(formData: any): Observable<any> {
     return this.http.post(`${this.rootUrl}/new`, formData);
-  
-}
+
+  }
+
+  updateNoteById(id: string, formData: Note): Observable<any> {
+    return this.http.put(`${this.rootUrl}/update/${id}`, formData);
+  }
+
 }
