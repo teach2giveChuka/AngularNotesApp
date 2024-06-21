@@ -2,9 +2,21 @@
 
 AngularNotesApp is a full-stack web application built with Angular for the frontend and Node.js with Express for the backend. It allows users to create, read, update, and delete notes.
 
-### Screenshot
+### Screenshots
 
-![Component Screenshot](./Frontend/NotesApp/src/assets/screenshot.PNG)
+![Landing Page](./prt%20scr/screenshot1.PNG)
+![Notes Page](./prt%20scr/screenshot2.PNG)
+![Viewing One Note](./prt%20scr/screenshot3.PNG)
+![Creating a note](./prt%20scr/screenshot5.PNG)
+![Viewing created note](./prt%20scr/screenshot6.PNG)
+![Before Delete](./prt%20scr/beforeDelete.PNG)
+![After delete](./prt%20scr/after%20delete.PNG)
+![Before Update](./prt%20scr/beforeUpdate.PNG)
+![Updating a note ](./prt%20scr/screenshot4.PNG)
+![After Update](./prt%20scr/afterUpdate.PNG)
+
+
+
 
 ## Prerequisites
 
@@ -12,7 +24,7 @@ Before running the application, make sure you have the following installed:
 
 - Node.js (v12 or later)
 - Angular CLI
-- SQL Server (or any other compatible database)
+- SQL Server
 
 ## Backend Setup
 
@@ -38,7 +50,7 @@ Before running the application, make sure you have the following installed:
 
 4. Start the backend server:
     ```sh
-    npm start
+    npm run dev
     ```
 
    The backend server will run on [http://localhost:3003](http://localhost:3003).
@@ -71,6 +83,7 @@ The application provides the following functionality:
 - Create a new note
 - View a list of all notes
 - View details of a specific note
+- Update a note
 - Delete a note
 
 ## Technologies Used
