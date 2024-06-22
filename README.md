@@ -7,34 +7,36 @@ AngularNotesApp is a full-stack web application built with Angular for the front
 ### Screenshots
 
 
+  ### Screenshots
+
+1. **Landing Page**
    ![Landing Page](./prt%20scr/screenshot1.PNG) - Landing Page
 
+2. **Notes Page**
+   ![Notes Page](./prt%20scr/screenshot2.PNG) 
 
-   ![Notes Page](./prt%20scr/screenshot2.PNG) - Notes Page
+3. **Viewing One Note**
+   ![Viewing One Note](./prt%20scr/screenshot3.PNG) 
 
+4. **Creating a Note**
+   ![Creating a Note](./prt%20scr/screenshot5.PNG) 
+5. **Viewing Created Note**
+   ![Viewing Created Note](./prt%20scr/screenshot6.PNG) 
 
-   ![Viewing One Note](./prt%20scr/screenshot3.PNG) - Viewing One Note
+6. **Before Delete**
+   ![Before Delete](./prt%20scr/beforeDelete.PNG) 
 
+7. **After Delete**
+   ![After Delete](./prt%20scr/after%20delete.PNG)
 
-   ![Creating a Note](./prt%20scr/screenshot5.PNG) - Creating a Note
+8. **Before Update**
+   ![Before Update](./prt%20scr/beforeUpdate.PNG) 
 
+9. **Updating a Note**
+   ![Updating a Note](./prt%20scr/screenshot4.PNG)
 
-   ![Viewing Created Note](./prt%20scr/screenshot6.PNG) - Viewing Created Note
-
-
-   ![Before Delete](./prt%20scr/beforeDelete.PNG) - Before Delete
-
-
-   ![After Delete](./prt%20scr/after%20delete.PNG) - After Delete
-
-
-   ![Before Update](./prt%20scr/beforeUpdate.PNG) - Before Update
-
-
-   ![Updating a Note](./prt%20scr/screenshot4.PNG) - Updating a Note
-
-
-    ![After Update](./prt%20scr/afterUpdate.PNG) - After Update
+10. **After Update**
+    ![After Update](./prt%20scr/afterUpdate.PNG) 
 
 
 
