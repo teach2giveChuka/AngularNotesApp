@@ -6,34 +6,34 @@ AngularNotesApp is a full-stack web application built with Angular for the front
 
 ### Screenshots
 
-1. **Landing Page**
+
    ![Landing Page](./prt%20scr/screenshot1.PNG) - Landing Page
 
-2. **Notes Page**
+
    ![Notes Page](./prt%20scr/screenshot2.PNG) - Notes Page
 
-3. **Viewing One Note**
+
    ![Viewing One Note](./prt%20scr/screenshot3.PNG) - Viewing One Note
 
-4. **Creating a Note**
+
    ![Creating a Note](./prt%20scr/screenshot5.PNG) - Creating a Note
 
-5. **Viewing Created Note**
+
    ![Viewing Created Note](./prt%20scr/screenshot6.PNG) - Viewing Created Note
 
-6. **Before Delete**
+
    ![Before Delete](./prt%20scr/beforeDelete.PNG) - Before Delete
 
-7. **After Delete**
+
    ![After Delete](./prt%20scr/after%20delete.PNG) - After Delete
 
-8. **Before Update**
+
    ![Before Update](./prt%20scr/beforeUpdate.PNG) - Before Update
 
-9. **Updating a Note**
+
    ![Updating a Note](./prt%20scr/screenshot4.PNG) - Updating a Note
 
-10. **After Update**
+
     ![After Update](./prt%20scr/afterUpdate.PNG) - After Update
 
 
