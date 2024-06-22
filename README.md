@@ -2,11 +2,6 @@
 
 AngularNotesApp is a full-stack web application built with Angular for the frontend and Node.js with Express for the backend. It allows users to create, read, update, and delete notes.
 
-### Screenshots
-
-### Screenshots
-
-
   ### Screenshots
 
 1. **Landing Page**
