@@ -2,18 +2,36 @@
 
 AngularNotesApp is a full-stack web application built with Angular for the frontend and Node.js with Express for the backend. It allows users to create, read, update, and delete notes.
 
-### Screenshots
+  ### Screenshots
 
-![Landing Page](./prt%20scr/screenshot1.PNG)
-![Notes Page](./prt%20scr/screenshot2.PNG)
-![Viewing One Note](./prt%20scr/screenshot3.PNG)
-![Creating a note](./prt%20scr/screenshot5.PNG)
-![Viewing created note](./prt%20scr/screenshot6.PNG)
-![Before Delete](./prt%20scr/beforeDelete.PNG)
-![After delete](./prt%20scr/after%20delete.PNG)
-![Before Update](./prt%20scr/beforeUpdate.PNG)
-![Updating a note ](./prt%20scr/screenshot4.PNG)
-![After Update](./prt%20scr/afterUpdate.PNG)
+1. **Landing Page**
+   ![Landing Page](./prt%20scr/screenshot1.PNG) - Landing Page
+
+2. **Notes Page**
+   ![Notes Page](./prt%20scr/screenshot2.PNG) 
+
+3. **Viewing One Note**
+   ![Viewing One Note](./prt%20scr/screenshot3.PNG) 
+
+4. **Creating a Note**
+   ![Creating a Note](./prt%20scr/screenshot5.PNG) 
+5. **Viewing Created Note**
+   ![Viewing Created Note](./prt%20scr/screenshot6.PNG) 
+
+6. **Before Delete**
+   ![Before Delete](./prt%20scr/beforeDelete.PNG) 
+
+7. **After Delete**
+   ![After Delete](./prt%20scr/after%20delete.PNG)
+
+8. **Before Update**
+   ![Before Update](./prt%20scr/beforeUpdate.PNG) 
+
+9. **Updating a Note**
+   ![Updating a Note](./prt%20scr/screenshot4.PNG)
+
+10. **After Update**
+    ![After Update](./prt%20scr/afterUpdate.PNG) 
 
 
 
