@@ -6,7 +6,7 @@
     "test": "hh",
     "build": "tsc --w",
     "dev": "nodemon ./dist/server.js",
-    "run": "node ./dist/server.js"
+    "start": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
